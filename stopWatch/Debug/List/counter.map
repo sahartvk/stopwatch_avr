@@ -1,0 +1,37 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+str                                                                               0x0164      16
+temp                                                                              0x0174      10
+_base_y                                                                           0x017E       4
+_lcd_maxx                                                                         0x0182       1
+_seed                                                                             0x0183       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+count                                                                             R4,R5        2
+sec                                                                               R6,R7        2
+minu                                                                              R8,R9        2
+hour                                                                              R10,R11      2
+_lcd_x                                                                            R13          1
+_lcd_y                                                                            R12          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+timer0_ovf_isr                                                                    0x00073    107
+main                                                                              0x000DE     59
+_lcd_write_nibble_G100                                                            0x00119     20
+_lcd_write_data                                                                   0x0012D     12
+lcd_gotoxy                                                                        0x00139     13
+lcd_clear                                                                         0x00146     12
+lcd_putchar                                                                       0x00152     23
+lcd_puts                                                                          0x00169     17
+lcd_init                                                                          0x0017A     47
+itoa                                                                              0x001A9     46
+strcat                                                                            0x001D7     17

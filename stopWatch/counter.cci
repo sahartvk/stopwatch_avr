@@ -1,0 +1,13 @@
+VERSION:3 SOURCE_TIMESTAMP:5524BD64
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega16.h"
+NODE:I LEVEL:0 LINE:27 "C:\cvavr\inc\alcd.h"
+NODE:I LEVEL:0 LINE:29 "C:\cvavr\inc\stdlib.h"
+NODE:I LEVEL:0 LINE:30 "C:\cvavr\inc\string.h"
+NODE:V LEVEL:0 LINE:32 "count -> R4,R5"
+NODE:V LEVEL:0 LINE:33 "sec -> R6,R7"
+NODE:V LEVEL:0 LINE:34 "minu -> R8,R9"
+NODE:V LEVEL:0 LINE:35 "hour -> R10,R11"
+NODE:V LEVEL:0 LINE:36 "str -> RAM:????"
+NODE:V LEVEL:0 LINE:36 "temp -> RAM:????"
+NODE:F LEVEL:0 LINE:41 "timer0_ovf_isr(void)"
+NODE:F LEVEL:0 LINE:77 "main(void)"
